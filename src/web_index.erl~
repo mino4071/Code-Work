@@ -1,0 +1,5 @@
+-module (web_index).
+-compile (export_all).
+
+main() -> 
+#template { file="./wwwroot/main.html"}.
